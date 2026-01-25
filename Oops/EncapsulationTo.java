@@ -1,3 +1,5 @@
+// Encapsulation is the process of wrapping data and methods into a single unit and 
+// protecting data using access modifiers
 package Oops;
 
 class Inner{
@@ -5,7 +7,7 @@ class Inner{
     private int age;
 
 
-    public String getName() {
+    public String getName() {        //Acces data by methods 
         return name;
     }
     public int getAge() {
